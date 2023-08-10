@@ -1,0 +1,204 @@
+.outer
+{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px #003566 solid;
+    padding: 50px;
+    background-color: #fdfffc;
+    animation-name: ex;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.image
+{
+    display: flex;
+    justify-content: space-around;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.button
+{
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+.upin
+{
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.insta
+{
+    
+    background: #6c757d;
+    padding: 20px;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold; 
+    border-radius: 35px;
+    
+}
+.tweet
+{
+    background: skyblue;
+    padding: 20px;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 35px;
+}
+.in
+{
+    background: red;
+    padding: 20px;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+.up
+{
+    background: #29bf12;
+    padding: 20px;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 35px;
+}
+h1:hover
+{
+    background-color: aliceblue;
+}
+a.up:hover,a.up:active
+{
+    background-color: darkgreen;
+}
+a.in:hover,a.in:active
+{
+    background-color: darkred;
+}
+a.tweet:hover,a.tweet:active
+{
+    background-color: blue;
+}
+a.insta:hover,a.insta:active
+{
+    background-color: black;
+}
+
+
+@keyframes ex {
+    0%   {background-color: #dee2e6;}
+    25%  {background-color: #e9ecef;}
+    50%  {background-color: #dee2e6;}
+    75%  {background-color: #e9ecef;}
+    100% {background-color: #f8f9fa;}
+  }
+  .si
+  {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px #003566 solid;
+    padding: 50px;
+    background-color: #fdfffc;
+    text-align: center;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.vbMaygMxIW0u4f4AA-4MmQHaE8&pid=Api&P=0);
+  }
+  .first
+  {
+    display: block;
+    margin: 20px;
+  }
+  .second
+  {
+    display: block;
+    margin: 20px;
+  }
+  .third
+  {
+    display: block;
+    margin: 20px;
+  }
+  .fourth
+  {
+    display: block;
+    margin: 20px;
+  }
+  .fifth
+  {
+    display: block;
+    margin: 20px;
+  }
+  .sixth
+  {
+    display: block;
+    margin: 20px;
+  }
+  .seventh
+  {
+    display: block;
+    margin: 20px;
+  }
+  .eigth
+  {
+    display: block;
+    margin: 20px;
+  }
+  .ninth
+  {
+    display: block;
+    margin: 20px;
+  }
+  .su
+  {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px #003566 solid;
+    padding: 50px;
+    background-color: #fdfffc;
+    text-align: center;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIF.P2xoBenIrsQaYdJMWlItKQ&pid=Api&P=0);
+  }
+  .va
+  {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 5px #003566 solid;
+    padding: 50px;
+    background-color: #fdfffc;
+  }
+
+.Bio
+{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.AnuImg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
